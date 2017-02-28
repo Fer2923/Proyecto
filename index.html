@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+	<meta charset="utf-8 />"
+	<title> Validacion de formularios con js</title>
+	<meta name="description" content ="En este ejercicio aprenderemos
+	a validar formularios con JavaScript y darles presentacion con css " />
+	<link rel="stylesheet"  href="css/estilos.css"/>
+	<script  src="js/validaciones.js"></script>
+</head>
+<body>
+	<form id="contacto-frm" name="contacto_frm" action ="" method= "get"
+	enctype="application/x-www-form-urlencoded">
+		<fieldset>
+			<legend> contacto </legend>
+			<label for="Nombre">Nombre: </label>
+			<input type="text" id="nombre" name="Nombre_txt" class="cambio"/>
+			<br /><br/>
+			<label for="Edad">Edad: </label>
+			<input type="text" id="edad" name="Edad_txt" class="cambio" />
+			<br /><br/>
+			<label for="Correo">Correo: </label>
+			<input type="text" id="correo" name="Correo_txt" class="cambio"/>
+			<br /><br/>
+			<label for="Sexo">Sexo: </label>
+			
+			<input type="radio" id="M" name="sexo_rdo" value="M" /> <label for="M">Masculino</label>
+			<input type="radio" id="F" name="sexo_rdo" value="F" /> <label for="F">Femenino</label>
+			
+			<br /><br/>
+			<label for="Asunto">Asunto: </label>
+			<input type="text" id="asunto" name="Asunto_txt" class="cambio"/>
+			<br /><br/>
+			<label for="comentarios">Comentarios</label>
+			<br />
+			<textarea name="comentarios_txa" id="comentarios" cols="50" rows="5" class="cambio"> </textarea>
+			<br /><br/>
+			<input type ="button" id="Enviar" class="cambio name="enviar_btn" value="Enviar" />
+			<input type ="button" id="Limpiar" class="cambio name="limpiar_btn" value="Limpiar" />
+			
+		</fieldset>
+</body>
+</html>
